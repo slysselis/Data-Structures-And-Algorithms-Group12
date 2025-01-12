@@ -42,7 +42,7 @@ public class ADTTest {
 
 
         // Test 2: Assign driver to route
-        driverSchedule.assignDriverToRoute("Driver1", Arrays.asList("LocationA", "LocationB"));
+        driverSchedule.assignDriverRoute("Driver1", Arrays.asList("LocationA", "LocationB"));
         System.out.println("Test 2. Assign driver to route: " + (!driverSchedule.isAvailable("Driver1") ? "PASS" : "FAIL"));
 
 
