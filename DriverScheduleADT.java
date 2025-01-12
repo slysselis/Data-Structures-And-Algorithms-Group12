@@ -13,7 +13,7 @@ public class DriverScheduleADT {
         availableDrivers.add(driverID);
     }
 
-    public void assignDriverToRoute(String driverID, List<String> route) {
+    public void assignDriverRoute(String driverID, List<String> route) {
         if (availableDrivers.contains(driverID)) {
             driverRoutes.put(driverID, route);
             availableDrivers.remove(driverID);
